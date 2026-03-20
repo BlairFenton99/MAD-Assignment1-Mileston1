@@ -4,7 +4,8 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: 'white',
+    justifyContent: 'space-between',
+    backgroundColor: '#fff',
   },
 
   title: {
@@ -15,6 +16,7 @@ export default StyleSheet.create({
   },
 
   listContainer: {
+    flex: 1,
     marginTop: 20,
   },
 
@@ -23,5 +25,18 @@ export default StyleSheet.create({
     padding: 12,
     borderRadius: 8,
     marginBottom: 10,
+  },
+
+  button: {
+    backgroundColor: '#4da6ff',
+    padding: 15,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+
+  buttonText: {
+    color: '#fff',
+    fontWeight: 'bold',
   },
 });
