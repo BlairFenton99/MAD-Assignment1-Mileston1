@@ -4,7 +4,7 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#fff',
+    backgroundColor: 'white',
   },
 
   title: {
@@ -12,5 +12,16 @@ export default StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     marginTop: 20,
+  },
+
+  listContainer: {
+    marginTop: 20,
+  },
+
+  todoItem: {
+    backgroundColor: '#cce5f6',
+    padding: 12,
+    borderRadius: 8,
+    marginBottom: 10,
   },
 });
