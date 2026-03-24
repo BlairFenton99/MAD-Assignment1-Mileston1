@@ -28,12 +28,14 @@ export default StyleSheet.create({
   },
 
   button: {
-    backgroundColor: '#4da6ff',
-    padding: 15,
-    borderRadius: 8,
-    alignItems: 'center',
-    marginBottom: 20,
-  },
+  backgroundColor: '#4da6ff',
+  padding: 15,
+  borderRadius: 8,
+  alignItems: 'center',
+  marginBottom: 20,
+  flexDirection: 'row',
+  justifyContent: 'center',
+},
 
   buttonText: {
     color: '#fff',
