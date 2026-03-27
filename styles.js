@@ -35,10 +35,49 @@ export default StyleSheet.create({
   marginBottom: 20,
   flexDirection: 'row',
   justifyContent: 'center',
-},
+  },
 
   buttonText: {
     color: '#fff',
     fontWeight: 'bold',
   },
+
+  input: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 8,
+    padding: 10,
+    marginTop: 15,
+  },
+
+textArea: {
+  height: 100,
+  textAlignVertical: 'top',
+},
+
+buttonRow: {
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  marginTop: 20,
+},
+
+cancelButton: {
+  backgroundColor: '#ff4d4d',
+  padding: 15,
+  borderRadius: 8,
+  flex: 0.48,
+  alignItems: 'center',
+  flexDirection: 'row',
+  justifyContent: 'center',
+},
+
+saveButton: {
+  backgroundColor: '#4CAF50',
+  padding: 15,
+  borderRadius: 8,
+  flex: 0.48,
+  alignItems: 'center',
+  flexDirection: 'row',
+  justifyContent: 'center',
+},
 });
